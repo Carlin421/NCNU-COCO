@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "DVOlWfnNLXftb72u2T7Rr6O2NX/7YRxi80wiaNJcfc0tbJkiAaTLPoYq6KsF+uwapfZlXcnK5Qn/PcwPXk3lxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carli\\Desktop\\1122\\專題\\20240426test\\coco_backend\\COCO_backend\\COCO_backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carli\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
+    "C:\\Users\\carli\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\carli\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\carli\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\carli\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\carli\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\carli\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

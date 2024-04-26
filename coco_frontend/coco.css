@@ -1,0 +1,97 @@
+body {
+    font-family: "微軟正黑體", sans-serif; /* 使用微軟正黑體字体 */
+    font-weight: bold; /* 使用粗体 */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e8baba;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around; /* 平均分布导航按钮 */
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #333; /* 深灰色字体 */
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid transparent; /* 添加透明边框 */
+    border-radius: 20px; /* 添加圆角 */
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: white; /* 鼠标悬停时字体颜色变为白色 */
+}
+
+.banner {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.banner img {
+    width: 70%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.latest-activities {
+    text-align: center;
+}
+
+.latest-sponsors {
+    text-align: center;
+}
+
+.latest-activities h2 {
+    margin-bottom: 20px;
+}
+
+.activity {
+    display: inline-block;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative; /* 添加相对定位 */
+}
+
+.activity img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.activity h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* 添加查看更多箭头 */
+.activity::after {
+    content: "⭢查看更多";
+    position: absolute;
+    right: -40px; /* 调整箭头位置 */
+    top: 50%; /* 垂直居中 */
+    transform: translateY(-50%); /* 垂直居中 */
+    writing-mode: vertical-rl; /* 垂直写入模式 */
+    text-orientation: mixed; /* 混合文本方向 */
+    color: #555; /* 箭头颜色 */
+    font-size: 14px; /* 字体大小 */
+}
