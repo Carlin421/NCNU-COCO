@@ -4,39 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>叩叩平台會員註冊</title>
-    <style>
- 
-    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>叩叩平台會員註冊</h1>
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="username">會員名稱:</label>
-                <input type="text" id="username" name="username" required>
-                <small>EX:叩叩</small>
-            </div>
-            <div class="form-group">
-                <label for="account">會員帳號:</label>
-                <input type="text" id="account" name="account" required>
-                <small>EX:Knock，僅能為英文</small>
-            </div>
-            <div class="form-group">
-                <label for="password">會員密碼:</label>
-                <input type="text" id="password" name="password" required>
-                <small>EX:12341234，由八個數字組成</small>
-            </div>
-            <div class="form-group">
-                <label for="identity">會員身分:</label>
-                <select id="identity" name="identity" required>
-                    <option value="">請選擇</option>
-                    <option value="club">社團活動方</option>
-                    <option value="brand">品牌贊助方</option>
-                </select>
-            </div>
-            <button type="submit" class="submit-btn">提交</button>
-        </form>
+<div class="container">
+    <h1>叩叩平台會員註冊</h1>
+    <form (ngSubmit)="onSubmit(form.value)" #form="ngForm">
+    <div class="form-group">
+        <label for="username">會員名稱:</label>
+        <input type="text" id="username" name="username" [(ngModel)]="formData.username" required>
+        <small>EX:叩叩</small>
     </div>
+    <div class="form-group">
+        <label for="account">會員帳號:</label>
+        <input type="text" id="account" name="account" [(ngModel)]="formData.account" required>
+        <small>EX:Knock，僅能為英文</small>
+    </div>
+    <div class="form-group">
+        <label for="password">會員密碼:</label>
+        <input type="text" id="password" name="password" [(ngModel)]="formData.password" required>
+        <small>EX:12341234，由八個數字組成</small>
+    </div>
+    <div class="form-group">
+        <label for="identity">會員身分:</label>
+        <select id="identity" name="identity" [(ngModel)]="formData.identity" required>
+            <option value="">請選擇</option>
+            <option value="club">社團活動方</option>
+            <option value="brand">品牌贊助方</option>
+        </select>
+    </div>
+    <button type="submit" class="submit-btn">提交</button>
+</form>
+</div>
 </body>
-</html>
