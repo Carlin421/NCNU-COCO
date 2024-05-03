@@ -15,6 +15,7 @@ import { SignupclubComponent } from './signupclub/signupclub.component';
 import { SignupbrandComponent } from './signupbrand/signupbrand.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
