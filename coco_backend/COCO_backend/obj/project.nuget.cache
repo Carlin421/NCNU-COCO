@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DVOlWfnNLXftb72u2T7Rr6O2NX/7YRxi80wiaNJcfc0tbJkiAaTLPoYq6KsF+uwapfZlXcnK5Qn/PcwPXk3lxA==",
+  "dgSpecHash": "IqdolI35N3j2eoP4O7dZ5MkB91vCI0l3GRfk92KQ0dfs4N9v1A+58+VfBIN+SKeWN9OvsxscOgNjbVZg8YUuBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carli\\Desktop\\1122\\專題\\20240426test\\coco_backend\\COCO_backend\\COCO_backend.csproj",
+  "projectFilePath": "C:\\Users\\carli\\Desktop\\1122\\專題\\20240503\\coco_backend\\COCO_backend\\COCO_backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carli\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "C:\\Users\\carli\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
