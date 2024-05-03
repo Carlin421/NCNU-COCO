@@ -13,7 +13,7 @@ import { PostsponsorComponent } from './postsponsor/postsponsor.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SignupclubComponent } from './signupclub/signupclub.component';
 import { SignupbrandComponent } from './signupbrand/signupbrand.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
