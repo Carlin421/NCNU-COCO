@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SignupclubComponent } from './signupclub/signupclub.component';
 import { SignupbrandComponent } from './signupbrand/signupbrand.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ForgotPasswdComponent } from './forgot-passwd/forgot-passwd.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     PostactivityComponent,
     PostsponsorComponent,
     SignupclubComponent,
-    SignupbrandComponent
+    SignupbrandComponent,
+    ForgotPasswdComponent
   ],
   imports: [
     BrowserModule,

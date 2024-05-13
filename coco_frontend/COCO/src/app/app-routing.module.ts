@@ -9,6 +9,7 @@ import { FindsponsorComponent } from './findsponsor/findsponsor.component';
 import { FindactivityComponent } from './findactivity/findactivity.component';
 import { SignupclubComponent } from './signupclub/signupclub.component';
 import { SignupbrandComponent } from './signupbrand/signupbrand.component';
+import { ForgotPasswdComponent } from './forgot-passwd/forgot-passwd.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'homepage', pathMatch: 'full' },
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path: 'postactivity', component:PostactivityComponent},
   {path: 'postsponsor', component:PostsponsorComponent},
   {path: 'signupclub', component:SignupclubComponent},
-  {path: 'signupbrand', component:SignupbrandComponent}
+  {path: 'signupbrand', component:SignupbrandComponent},
+  {path: 'forgot-passwd', component:ForgotPasswdComponent}
 
 ];
 
