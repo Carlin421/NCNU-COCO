@@ -10,6 +10,8 @@ import { FindactivityComponent } from './findactivity/findactivity.component';
 import { SignupclubComponent } from './signupclub/signupclub.component';
 import { SignupbrandComponent } from './signupbrand/signupbrand.component';
 import { ForgotPasswdComponent } from './forgot-passwd/forgot-passwd.component';
+import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'homepage', pathMatch: 'full' },
@@ -22,8 +24,9 @@ const routes: Routes = [
   {path: 'postsponsor', component:PostsponsorComponent},
   {path: 'signupclub', component:SignupclubComponent},
   {path: 'signupbrand', component:SignupbrandComponent},
-  {path: 'forgot-passwd', component:ForgotPasswdComponent}
-
+  {path: 'forgot-passwd', component:ForgotPasswdComponent},
+  {path:'nav',component:NavComponent},
+  {path:'footer', component:FooterComponent}
 ];
 
 @NgModule({

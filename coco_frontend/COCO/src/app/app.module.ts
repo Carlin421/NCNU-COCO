@@ -15,6 +15,8 @@ import { SignupclubComponent } from './signupclub/signupclub.component';
 import { SignupbrandComponent } from './signupbrand/signupbrand.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ForgotPasswdComponent } from './forgot-passwd/forgot-passwd.component';
+import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { ForgotPasswdComponent } from './forgot-passwd/forgot-passwd.component';
     PostsponsorComponent,
     SignupclubComponent,
     SignupbrandComponent,
-    ForgotPasswdComponent
+    ForgotPasswdComponent,
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

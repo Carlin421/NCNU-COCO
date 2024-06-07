@@ -10,35 +10,6 @@ header {
     padding: 10px 0;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around; /* 平均分布导航按钮 */
-    align-items: center;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-flex;
-    align-items: center;
-}
-
-nav ul li a {
-    color: #333; /* 深灰色字体 */
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 1px solid transparent; /* 添加透明边框 */
-    border-radius: 20px; /* 添加圆角 */
-}
-
-nav ul li a:hover {
-    background-color: #555;
-    color: white; /* 鼠标悬停时字体颜色变为白色 */
-}
 
 .banner {
     text-align: center;
