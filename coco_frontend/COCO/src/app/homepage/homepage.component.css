@@ -66,3 +66,27 @@ header {
     color: #555; /* 箭头颜色 */
     font-size: 14px; /* 字体大小 */
 }
+.partners-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* 淺灰色背景 */
+  }
+  
+  .partners-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .partner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  

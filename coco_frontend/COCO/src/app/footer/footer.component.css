@@ -1,0 +1,53 @@
+.footer-container {
+    background-color: #f2dede; /* 粉色背景 */
+    color: #333; /* 深灰色字體 */
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer-section h3 {
+    border-bottom: 2px solid #333; /* 深灰色邊框 */
+    padding-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #333; /* 深灰色字體 */
+    text-decoration: none;
+  }
+  
+  .footer-section p {
+    margin: 10px 0;
+  }
+  
+  .footer-section img {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #777; /* 深灰色邊框 */
+    padding-top: 10px;
+  }
+  
